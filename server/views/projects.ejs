@@ -1,0 +1,56 @@
+<! name:Brandon shiwsanakr
+Student number: 301068399
+Date: 9/8/2020
+file name: projects
+>
+
+<%- include partials/header.ejs %>
+
+<%- include partials/main_nav.ejs %>
+<style>
+    body {
+        background: lightblue;
+    }
+</style>
+
+  <main class="container" style="width: 980px; background: lightcyan">
+      <div>
+          <h1 class="display-4" style="text-align: center">Welcome to my <%= title %>.</h1>
+        </div>
+
+    <table style="width: 100%">
+        <tr>
+            <td>
+                <h6>
+                    Java project that I worked on when I was in hight school.
+                    It is a 2D scroller game where you try to avoid getting your spaceship hit by passing meteors.
+                    As the game progresses the meteors passnby faster and faster. If you do get hit you have three lives.
+                    This game is still incomplete and has some bugs.
+                </h6>
+            </td>
+            <td>
+                <img id="pic"  src="/Assets/images/p1.png" width="550px" height="300px" style="margin-left: 5px;" >
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h6>This is an picture gallery part of a website that I made in high school for a project.</h6>
+            </td>
+            <td>
+                <img id="pic" src="/Assets/images/p2.png" width="550px" height="300px" style="margin-top: 7px; margin-left: 5px;">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h6>This is my assignment one for advance database where I have to display certain information.</h6>
+            </td>
+            <td>
+                 <img id="pic" src="/Assets/images/p3.png" width="550px" height="300px" style="margin-top: 7px; margin-left: 5px;">
+            </td>
+        </tr>
+    </table>
+  </main>
+
+<%- include partials/bottom_nav.ejs %>
+
+<%- include partials/footer.ejs %>
